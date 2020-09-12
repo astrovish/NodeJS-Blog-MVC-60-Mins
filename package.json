@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-mvc-blog-application-in-60-mins",
+  "version": "1.0.0",
+  "description": "An attempt to create a blog application in 60 mins.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrovish/NodeJS-Blog-MVC-60-Mins.git"
+  },
+  "author": "Vishal Singh Tak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astrovish/NodeJS-Blog-MVC-60-Mins/issues"
+  },
+  "homepage": "https://github.com/astrovish/NodeJS-Blog-MVC-60-Mins#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.10.5",
+    "slugify": "^1.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
